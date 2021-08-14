@@ -1,0 +1,14 @@
+.logo {
+  border: none;
+}
+
+.jumbotron {
+  background-image: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px;
+  height: 33rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

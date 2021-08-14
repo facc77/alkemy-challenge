@@ -1,0 +1,13 @@
+.heroImg {
+  width: 70%;
+}
+
+.statsContainer {
+  height: 230px;
+  width: 320px;
+}
+
+body {
+  background-color: blue !important;
+  color: white !important;
+}

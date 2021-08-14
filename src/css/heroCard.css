@@ -1,0 +1,18 @@
+.card-img-top {
+  width: 300px;
+  height: 300px;
+}
+
+.card {
+  width: 18rem;
+  margin: 2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btn {
+  margin-left: 5px;
+}

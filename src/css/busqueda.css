@@ -1,0 +1,9 @@
+.marco {
+  margin: 5rem;
+  background-color: blue;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
