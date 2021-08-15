@@ -21,7 +21,6 @@ const Busqueda = () => {
         : setError(res.data.error);
     };
     fetchData();
-    console.log(heroesInfo);
   }, [heroesInfo]);
 
   return (

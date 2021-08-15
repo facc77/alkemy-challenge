@@ -7,11 +7,13 @@ const Home = () => {
   return (
     <>
       <div className="home">
-        <h1>SuperHero Team</h1>
         <div className="section">
           <h1>Crea tu equipo de héroes!</h1>
           <Buscador />
-          <HeroTeam />
+
+          <div className="card-container color-black">
+            <HeroTeam />
+          </div>
         </div>
       </div>
     </>

@@ -7,16 +7,22 @@ import Header from "./components/Header";
 import Busqueda from "./pages/Busqueda";
 import HeroInfo from "./pages/HeroInfo";
 
+import { Provider } from "react-redux";
+import store from "./store";
+
 function App() {
   return (
     <Router>
-      <Header />
-      <div className="container mt-2">
-        <Route exact path="/" component={Login} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/heroInfo" component={HeroInfo} />
-        <Route exact path="/busqueda" component={Busqueda} />
-      </div>
+      <Provider store={store}>
+        <Header />
+
+        <div className="container mt-2">
+          <Route exact path="/" component={Login} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/heroInfo" component={HeroInfo} />
+          <Route exact path="/busqueda" component={Busqueda} />
+        </div>
+      </Provider>
     </Router>
   );
 }

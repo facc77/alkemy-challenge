@@ -1,15 +1,9 @@
 import React, { useEffect } from "react";
 import PowerBar from "../components/PowerBar";
 import "../css/heroInfo.css";
-import Logo from "../img/heroLogo.png";
-import { Link } from "react-router-dom";
 
 const HeroInfo = () => {
   const hero = JSON.parse(window.localStorage.getItem("hero"));
-  useEffect(() => {
-    console.log(hero);
-    console.log(hero.powerstats);
-  }, []);
 
   return (
     <>
