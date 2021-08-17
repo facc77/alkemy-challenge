@@ -1,15 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
 import "../css/heroCard.css";
-import { useDispatch, useSelector } from "react-redux";
-
-import { agregarHeroeAction } from "../actions/heroeActions";
+import { useDispatch } from "react-redux";
+import { agregarHeroeAction, borrarHeroeAction } from "../actions/heroeActions";
+import Swal from "sweetalert2";
 
 const HeroCard = ({ hero, team }) => {
   let history = useHistory();
   const dispatch = useDispatch();
-  const parametro = team;
-
   const agregarHeroe = (hero) => dispatch(agregarHeroeAction(hero));
 
   const handleAddition = (e) => {
@@ -24,12 +22,23 @@ const HeroCard = ({ hero, team }) => {
     agregarHeroe(hero);
     history.push("/home");
   };
+  //sacar un heroe del equipo
 
-  const handleSubtraction = (e) => {
-    e.preventDefault();
-
-    console.log("sacar heroe");
-    //sacar un heroe del equipo
+  const handleSubtraction = (id) => {
+    Swal.fire({
+      title: "Estas seguro?",
+      text: "El heroe saldrá del equipo!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Si, sácalo!",
+      cancelButtonText: "Cancelar",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        dispatch(borrarHeroeAction(id));
+      }
+    });
   };
 
   const handleClick = () => {
@@ -40,7 +49,7 @@ const HeroCard = ({ hero, team }) => {
 
   return (
     <div className="card">
-      <img className="card-img-top" src={hero.image.url} />
+      <img className="card-img-top" alt="heroImg" src={hero.image.url} />
 
       <div className="card-body">
         <h5 className="card-title">{hero.name}</h5>
@@ -48,7 +57,7 @@ const HeroCard = ({ hero, team }) => {
         <div className="buttons">
           {team ? (
             <button
-              onClick={handleSubtraction}
+              onClick={() => handleSubtraction(hero.id)}
               href="#"
               className="btn btn-primary "
             >

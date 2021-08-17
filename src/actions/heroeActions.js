@@ -5,6 +5,9 @@ import {
   COMENZAR_DESCARGA_HEROES,
   DESCARGA_HEROES_EXITO,
   DESCARGA_HEROES_ERROR,
+  OBTENER_HEROE_ELIMINAR,
+  HEROE_ELIMINADO_EXITO,
+  HEROE_ELIMINADO_ERROR,
 } from "../types";
 import clienteAxios from "../config/axios";
 import Swal from "sweetalert2";
@@ -70,5 +73,38 @@ const descargaHeroesExitosa = (heroes) => ({
 
 const descargaHeroesError = () => ({
   type: DESCARGA_HEROES_ERROR,
+  payload: true,
+});
+
+export function borrarHeroeAction(id) {
+  return async (dispatch) => {
+    dispatch(obtenerHeroeEliminar(id));
+
+    try {
+      await clienteAxios.delete(`/heroes/${id}`);
+      dispatch(eliminarHeroeExito());
+      Swal.fire(
+        "Eliminado!",
+        "El héroe salió del equipo correctamente.",
+        "success"
+      );
+    } catch (error) {
+      console.log(error);
+      dispatch(eliminarHeroeError());
+    }
+  };
+}
+
+const obtenerHeroeEliminar = (id) => ({
+  type: OBTENER_HEROE_ELIMINAR,
+  payload: id,
+});
+
+const eliminarHeroeExito = () => ({
+  type: HEROE_ELIMINADO_EXITO,
+});
+
+const eliminarHeroeError = () => ({
+  type: HEROE_ELIMINADO_ERROR,
   payload: true,
 });

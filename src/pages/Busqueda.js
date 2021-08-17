@@ -4,9 +4,7 @@ import HeroCard from "../components/HeroCard";
 import "../css/busqueda.css";
 
 const Busqueda = () => {
-  const [busqueda, setbusqueda] = useState(
-    window.localStorage.getItem("busqueda")
-  );
+  const busqueda = window.localStorage.getItem("busqueda");
 
   const [heroesInfo, setHeroesInfo] = useState("");
   const [error, setError] = useState("");
@@ -21,6 +19,7 @@ const Busqueda = () => {
         : setError(res.data.error);
     };
     fetchData();
+    // eslint-disable-next-line
   }, [heroesInfo]);
 
   return (

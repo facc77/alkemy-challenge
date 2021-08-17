@@ -7,12 +7,12 @@ const HeroTeam = () => {
   const equipo = useSelector((state) => state.heroes.heroes);
   const cargando = useSelector((state) => state.heroes.loading);
 
-  const equipo1 = [];
   const dispatch = useDispatch();
 
   useEffect(() => {
     const cargarHeroes = () => dispatch(obtenerHeroesAction());
     cargarHeroes();
+    // eslint-disable-next-line
   }, []);
 
   return cargando ? (

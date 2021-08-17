@@ -1,11 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Bar } from "react-chartjs-2";
 
 const PowerBar = ({ powerStats }) => {
-  useEffect(() => {
-    console.log(parseInt(combat));
-  }, []);
-
   const { intelligence, durability, combat, power, speed, strength } =
     powerStats;
 

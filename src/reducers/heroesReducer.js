@@ -5,6 +5,9 @@ import {
   COMENZAR_DESCARGA_HEROES,
   DESCARGA_HEROES_EXITO,
   DESCARGA_HEROES_ERROR,
+  OBTENER_HEROE_ELIMINAR,
+  HEROE_ELIMINADO_EXITO,
+  HEROE_ELIMINADO_ERROR,
 } from "../types";
 
 const initialState = {
@@ -28,6 +31,7 @@ export default function reducer(state = initialState, action) {
         loading: false,
         heroes: [...state.heroes, action.payload],
       };
+    case HEROE_ELIMINADO_ERROR:
     case DESCARGA_HEROES_ERROR:
     case AGREGAR_HEROE_ERROR:
       return {
@@ -42,6 +46,20 @@ export default function reducer(state = initialState, action) {
         error: null,
         heroes: action.payload,
       };
+    case OBTENER_HEROE_ELIMINAR:
+      return {
+        ...state,
+        heroeEliminar: action.payload,
+      };
+    case HEROE_ELIMINADO_EXITO:
+      return {
+        ...state,
+        heroes: state.heroes.filter(
+          (heroe) => heroe.id !== state.heroeEliminar
+        ),
+        heroeEliminar: null,
+      };
+
     default:
       return state;
   }

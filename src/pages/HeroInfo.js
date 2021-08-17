@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import PowerBar from "../components/PowerBar";
 import "../css/heroInfo.css";
 
@@ -11,7 +11,7 @@ const HeroInfo = () => {
         <div class="row">
           <div class="col-md-6 mt-4">
             <div class="header-content-left">
-              <img src={hero.image.url} className="heroImg" />
+              <img src={hero.image.url} alt="heroImg" className="heroImg" />
             </div>
           </div>
           <div class="col-md-6 mt-4">
