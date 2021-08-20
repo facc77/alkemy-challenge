@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import axios from "axios";
 import HeroCard from "../components/HeroCard";
 import "../css/busqueda.css";
@@ -8,6 +9,14 @@ const Busqueda = () => {
 
   const [heroesInfo, setHeroesInfo] = useState("");
   const [error, setError] = useState("");
+  let history = useHistory();
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token === "") {
+      history.push("/");
+    }
+  }, [history]);
 
   useEffect(() => {
     const fetchData = async () => {

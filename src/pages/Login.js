@@ -5,7 +5,7 @@ import LoginForm from "../components/LoginForm";
 const Home = () => {
   return (
     <>
-      <div class="jumbotron d-flex">
+      <div className="jumbotron d-flex">
         <LoginForm />
       </div>
     </>

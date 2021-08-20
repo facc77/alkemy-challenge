@@ -24,7 +24,7 @@ const Buscador = () => {
     <form onSubmit={formik.handleSubmit}>
       <div className="col-md-12">
         <div className="row">
-          <div className="col-md-3 d-flex">
+          <div className="col-md-8 d-flex">
             <input
               id="busqueda"
               name="busqueda"

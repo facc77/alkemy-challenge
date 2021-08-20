@@ -1,163 +1,101 @@
 {
   "heroes": [
     {
-      "id": "443",
-      "name": "Mephisto",
+      "id": "267",
+      "name": "Flash IV",
       "powerstats": {
-        "intelligence": "88",
-        "strength": "85",
-        "speed": "35",
-        "durability": "95",
+        "intelligence": "63",
+        "strength": "10",
+        "speed": "100",
+        "durability": "32",
         "power": "100",
-        "combat": "42"
+        "combat": "48"
       },
       "biography": {
-        "full-name": "",
-        "alter-egos": "No alter egos found.",
+        "full-name": "Bartholomew Allen II",
+        "alter-egos": "Impulse, Kid Flash II",
         "aliases": [
-          "Satan; Mephistopheles",
-          "Lord of Evil",
-          "Prince of Devils",
-          "Prince of Lies",
-          "Lord of the Lower Depths",
-          "Satan",
-          "Beelzebub",
-          "the Devil",
-          "Maya",
-          "Lucifer",
-          "Nick Scratch",
-          "the Friend",
-          "Legion",
-          "numerous others; impersonated Don Blake",
-          "many others"
-        ],
-        "place-of-birth": "Hell",
-        "first-appearance": "-",
-        "publisher": "Marvel Comics",
-        "alignment": "bad"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "null",
-        "height": [
-          "6'6",
-          "198 cm"
-        ],
-        "weight": [
-          "310 lb",
-          "140 kg"
-        ],
-        "eye-color": "White",
-        "hair-color": "Black"
-      },
-      "work": {
-        "occupation": "Lord of a realm of Hell",
-        "base": "-"
-      },
-      "connections": {
-        "group-affiliation": "Hell-lords, Lords of the Splinter Realms; formerly manipulator of the Six-Fingered Hand",
-        "relatives": "Blackheart (son), Mephista (daughter); presumptive relationship to other Hell-lords; quasi-paternal relationship to Mikal Drakonmegas (Hellfire) and Daimon (Hellstorm) and Satana Hellstrom; formerly engaged to unidentified demoness"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/1322.jpg"
-      }
-    },
-    {
-      "id": "223",
-      "name": "Doctor Doom II",
-      "powerstats": {
-        "intelligence": "null",
-        "strength": "null",
-        "speed": "null",
-        "durability": "null",
-        "power": "null",
-        "combat": "null"
-      },
-      "biography": {
-        "full-name": "Kristoff Vernard",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "Victor Von Doom",
-          "Dr Doom"
-        ],
-        "place-of-birth": "Doomstadt, Latveria",
-        "first-appearance": "Fantastic Four #247 (1982, as Kristoff), Fantastic Four #278 (1985, as Doctor Doom)",
-        "publisher": "Marvel Comics",
-        "alignment": "bad"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "null",
-        "height": [
-          "6'7",
-          "201 cm"
-        ],
-        "weight": [
-          "293 lb",
-          "132 kg"
-        ],
-        "eye-color": "Brown",
-        "hair-color": "Brown"
-      },
-      "work": {
-        "occupation": "-",
-        "base": "Former monarch, would-be conqueror"
-      },
-      "connections": {
-        "group-affiliation": "-",
-        "relatives": "unnamed mother (deceased), Mister Fantastic (alleged half-brother), Valeria Richards (alleged niece), Victor von Doom (aka Doctor Doom, adopted father)"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/1018.jpg"
-      }
-    },
-    {
-      "id": "63",
-      "name": "Batgirl",
-      "powerstats": {
-        "intelligence": "88",
-        "strength": "11",
-        "speed": "33",
-        "durability": "40",
-        "power": "34",
-        "combat": "90"
-      },
-      "biography": {
-        "full-name": "Barbara Gordon",
-        "alter-egos": "Oracle",
-        "aliases": [
-          "Oracle",
-          "Bluebelle"
+          "Impulse",
+          "Kid Flash II"
         ],
         "place-of-birth": "-",
-        "first-appearance": "Detective Comics #359",
-        "publisher": "Oracle",
+        "first-appearance": "(as Impulse) Flash v.2 #91 (June 1994)* (as Kid Flash) Teen Titans v.3 #4 (December 2003)",
+        "publisher": "Impulse",
         "alignment": "good"
       },
       "appearance": {
-        "gender": "Female",
+        "gender": "Male",
         "race": "Human",
         "height": [
-          "5'7",
-          "170 cm"
+          "5'2",
+          "157 cm"
         ],
         "weight": [
-          "126 lb",
-          "57 kg"
+          "115 lb",
+          "52 kg"
         ],
-        "eye-color": "Green",
-        "hair-color": "Red"
+        "eye-color": "Yellow",
+        "hair-color": "Auburn"
       },
       "work": {
-        "occupation": "-",
-        "base": "Gotham City, formerly Metropolis, Platinum Flats"
+        "occupation": "Police trainee",
+        "base": "Los Angeles, California (previously Manchester, Alabama, briefly Denver, Colorado, then Keystone City, Kansas)"
       },
       "connections": {
-        "group-affiliation": "-",
-        "relatives": "James Gordon (father) � Barbara Eileen (mother) � James Gordon, Jr. (brother)"
+        "group-affiliation": "Flash Family, Teen Titans, Legion of Super-Heroes; formerly Young Justice",
+        "relatives": "Barry Allen (Flash II, grandfather), Iris West Allen (grandmother), Don Allen (father), Meloni Thawne (mother), President Thawne (grandfather), Dawn Allen (aunt), Jenni Ognats (cousin), Thaddeus Thawne (clone), Owen Mercer (half-brother), Max Crandall (guardian)"
       },
       "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/1111.jpg"
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/893.jpg"
+      }
+    },
+    {
+      "id": "70",
+      "name": "Batman",
+      "powerstats": {
+        "intelligence": "100",
+        "strength": "26",
+        "speed": "27",
+        "durability": "50",
+        "power": "47",
+        "combat": "100"
+      },
+      "biography": {
+        "full-name": "Bruce Wayne",
+        "alter-egos": "No alter egos found.",
+        "aliases": [
+          "Insider",
+          "Matches Malone"
+        ],
+        "place-of-birth": "Crest Hill, Bristol Township; Gotham County",
+        "first-appearance": "Detective Comics #27",
+        "publisher": "DC Comics",
+        "alignment": "good"
+      },
+      "appearance": {
+        "gender": "Male",
+        "race": "Human",
+        "height": [
+          "6'2",
+          "188 cm"
+        ],
+        "weight": [
+          "210 lb",
+          "95 kg"
+        ],
+        "eye-color": "blue",
+        "hair-color": "black"
+      },
+      "work": {
+        "occupation": "Businessman",
+        "base": "Batcave, Stately Wayne Manor, Gotham City; Hall of Justice, Justice League Watchtower"
+      },
+      "connections": {
+        "group-affiliation": "Batman Family, Batman Incorporated, Justice League, Outsiders, Wayne Enterprises, Club of Heroes, formerly White Lantern Corps, Sinestro Corps",
+        "relatives": "Damian Wayne (son), Dick Grayson (adopted son), Tim Drake (adopted son), Jason Todd (adopted son), Cassandra Cain (adopted ward)\nMartha Wayne (mother, deceased), Thomas Wayne (father, deceased), Alfred Pennyworth (former guardian), Roderick Kane (grandfather, deceased), Elizabeth Kane (grandmother, deceased), Nathan Kane (uncle, deceased), Simon Hurt (ancestor), Wayne Family"
+      },
+      "image": {
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
       }
     }
   ]
