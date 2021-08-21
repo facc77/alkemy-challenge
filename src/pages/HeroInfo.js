@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import PowerBar from "../components/PowerBar";
+import Header from "../components/Header";
 import "../css/heroInfo.css";
 
 const HeroInfo = () => {
@@ -16,6 +17,7 @@ const HeroInfo = () => {
 
   return (
     <>
+      <Header login={true} />
       <div className="container">
         <div className="row">
           <div className="col-md-6 mt-4">
@@ -41,9 +43,6 @@ const HeroInfo = () => {
               <div className="row">
                 <div className="col-6">
                   <PowerBar powerStats={hero.powerstats} />
-                </div>
-                <div className="col-6 d-flex justify-content-center align-items-center">
-                  <button className="btn btn-primary">agregar Heroe</button>
                 </div>
               </div>
             </div>

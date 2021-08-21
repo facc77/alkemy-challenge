@@ -15,17 +15,13 @@ function App() {
   return (
     <Router>
       <Provider store={store}>
-        <Header />
-
-        <div className="container mt-2">
-          <Switch>
-            <Route exact path="/" component={Login} />
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/heroInfo" component={HeroInfo} />
-            <Route exact path="/busqueda" component={Busqueda} />
-            <Route exact path="/test" component={Card} />
-          </Switch>
-        </div>
+        <Switch>
+          <Route exact path="/" component={Login} />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/heroInfo" component={HeroInfo} />
+          <Route exact path="/busqueda" component={Busqueda} />
+          <Route exact path="/test" component={Card} />
+        </Switch>
       </Provider>
     </Router>
   );

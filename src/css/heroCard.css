@@ -11,13 +11,12 @@
 .btn {
   margin-left: 5px;
 }
-.card {
+/* .card {
   width: 18rem;
   margin: 2rem;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
 
-.flip-card {
+*/ .flip-card {
   width: 18rem;
   margin: 2rem;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */

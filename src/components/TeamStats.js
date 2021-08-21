@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import PowerBar from "../components/PowerBar";
+import "../css/home.css";
 
 const TeamStats = () => {
   const equipo = useSelector((state) => state.heroes.heroes);
@@ -37,14 +38,14 @@ const TeamStats = () => {
     powerStats[a] > powerStats[b] ? a : b
   );
   return (
-    <div className="col-md-8 d-flex">
-      <div className="col-md-6 align-items-center">
+    <div className="col-md-12 d-flex valoresContainer">
+      <div className="col-md-6 align-items-center averageStats">
         <h3>Team Stats:</h3>
         <h4>Altura Promedio: {averageHeight} cm</h4>
         <h4>Peso Promedio: {averageWeight} kg</h4>
         <h4>Tipo de Equipo: {maxStat}</h4>
       </div>
-      <div className="col-md-8">
+      <div className="col-md-6">
         <PowerBar powerStats={powerStats} />
       </div>
     </div>

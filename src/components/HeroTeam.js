@@ -23,7 +23,7 @@ const HeroTeam = () => {
     </div>
   ) : equipo.length !== 0 ? (
     equipo.map((hero) => {
-      return <Card key={hero.id} hero={hero} team={true} />;
+      return <Card key={hero.id} hero={hero} team={true} heroTeam={true} />;
     })
   ) : (
     //<PowerBar powerStats={powerStats} />

@@ -7,6 +7,7 @@ import Card from "../components/Card"; */
 import { useHistory } from "react-router-dom";
 import Buscador from "../components/Buscador";
 import TeamStats from "../components/TeamStats";
+import Header from "../components/Header";
 
 const Home = () => {
   const equipo = useSelector((state) => state.heroes.heroes);
@@ -21,12 +22,13 @@ const Home = () => {
 
   return (
     <>
+      <Header login={true} />
       <div className="home">
         <div className="section">
           <h1>Crea tu equipo de héroes!</h1>
-          <div className="container">
+          <div className="container mt-4">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-12">
                 <Buscador />
               </div>
               {equipo.length !== 0 ? <TeamStats /> : null}

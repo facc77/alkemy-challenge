@@ -4,6 +4,7 @@ import * as Yup from "yup";
 import "../css/loginForm.css";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const LoginForm = () => {
   let history = useHistory();
@@ -14,11 +15,7 @@ const LoginForm = () => {
     },
 
     validationSchema: Yup.object({
-      password: Yup.string()
-
-        .max(20, "Must be 20 characters or less")
-
-        .required("Escriba la contrasena"),
+      password: Yup.string().required("Escriba la contrasena"),
 
       email: Yup.string()
         .email("correo inválido")
@@ -43,13 +40,20 @@ const LoginForm = () => {
         } catch (error) {
           console.log(error);
         }
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Acceso denegado",
+          text: "Email o contrasena incorrectos",
+        });
+        return;
       }
     },
   });
 
   return (
-    <form onSubmit={formik.handleSubmit} className="loginForm">
-      <h1>Logueate</h1>
+    <form onSubmit={formik.handleSubmit} className="loginForm bg-dark">
+      <h1>Login</h1>
 
       <div className="form-group">
         <label htmlFor="email">Email Address</label>
@@ -62,11 +66,13 @@ const LoginForm = () => {
         />
 
         {formik.touched.email && formik.errors.email ? (
-          <div>{formik.errors.email}</div>
+          <div className="p-1 alert alert-danger text-center">
+            {formik.errors.email}
+          </div>
         ) : null}
       </div>
       <div className="form-group">
-        <label htmlFor="password">Contrasena</label>
+        <label htmlFor="password">Password</label>
 
         <input
           id="password"
@@ -76,13 +82,15 @@ const LoginForm = () => {
         />
 
         {formik.touched.password && formik.errors.password ? (
-          <div>{formik.errors.password}</div>
+          <div className="p-1 alert alert-danger text-center">
+            {formik.errors.password}
+          </div>
         ) : null}
       </div>
 
       <div className="form-group">
-        <button type="submit" className="btn btn-primary">
-          Ingresar
+        <button type="submit" className="btn btn-primary w-100">
+          Enter
         </button>
       </div>
     </form>

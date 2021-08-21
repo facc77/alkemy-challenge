@@ -1,52 +1,101 @@
 {
   "heroes": [
     {
-      "id": "267",
-      "name": "Flash IV",
+      "id": "266",
+      "name": "Flash III",
       "powerstats": {
         "intelligence": "63",
         "strength": "10",
         "speed": "100",
-        "durability": "32",
+        "durability": "60",
         "power": "100",
-        "combat": "48"
+        "combat": "32"
       },
       "biography": {
-        "full-name": "Bartholomew Allen II",
-        "alter-egos": "Impulse, Kid Flash II",
+        "full-name": "Wally West",
+        "alter-egos": "Speed Demon",
         "aliases": [
-          "Impulse",
-          "Kid Flash II"
+          "The Fastest Man Alive",
+          "The Scarlet Speedster; formerly",
+          "Kid Flash I"
         ],
-        "place-of-birth": "-",
-        "first-appearance": "(as Impulse) Flash v.2 #91 (June 1994)* (as Kid Flash) Teen Titans v.3 #4 (December 2003)",
-        "publisher": "Impulse",
+        "place-of-birth": "Blue Valley, Nebraska",
+        "first-appearance": "Flash #110 (January, 1960)",
+        "publisher": "Speed Demon",
         "alignment": "good"
       },
       "appearance": {
         "gender": "Male",
         "race": "Human",
         "height": [
-          "5'2",
-          "157 cm"
+          "6'0",
+          "183 cm"
         ],
         "weight": [
-          "115 lb",
-          "52 kg"
+          "190 lb",
+          "86 kg"
         ],
-        "eye-color": "Yellow",
-        "hair-color": "Auburn"
+        "eye-color": "-",
+        "hair-color": "-"
       },
       "work": {
-        "occupation": "Police trainee",
-        "base": "Los Angeles, California (previously Manchester, Alabama, briefly Denver, Colorado, then Keystone City, Kansas)"
+        "occupation": "Adventurer, Mechanic for the KCPD",
+        "base": "Keystone City, Kansas"
       },
       "connections": {
-        "group-affiliation": "Flash Family, Teen Titans, Legion of Super-Heroes; formerly Young Justice",
-        "relatives": "Barry Allen (Flash II, grandfather), Iris West Allen (grandmother), Don Allen (father), Meloni Thawne (mother), President Thawne (grandfather), Dawn Allen (aunt), Jenni Ognats (cousin), Thaddeus Thawne (clone), Owen Mercer (half-brother), Max Crandall (guardian)"
+        "group-affiliation": "Flash Family, Justice League of America, Titans; formerly Teen Titans",
+        "relatives": "Rudolph and Mary West (parents), Ira West (grandfather), Iris Allen (aunt), Barry Allen (Flash II, uncle), Linda Park West (wife), Jai and Iris West (twin children)"
       },
       "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/893.jpg"
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/690.jpg"
+      }
+    },
+    {
+      "id": "405",
+      "name": "Lex Luthor",
+      "powerstats": {
+        "intelligence": "100",
+        "strength": "53",
+        "speed": "25",
+        "durability": "65",
+        "power": "68",
+        "combat": "70"
+      },
+      "biography": {
+        "full-name": "Lex Luthor",
+        "alter-egos": "No alter egos found.",
+        "aliases": [
+          "-"
+        ],
+        "place-of-birth": "-",
+        "first-appearance": "Action Comics #23",
+        "publisher": "DC Comics",
+        "alignment": "bad"
+      },
+      "appearance": {
+        "gender": "Male",
+        "race": "Human",
+        "height": [
+          "6'2'",
+          "188 cm"
+        ],
+        "weight": [
+          "210 lb",
+          "95 kg"
+        ],
+        "eye-color": "Green",
+        "hair-color": "No Hair"
+      },
+      "work": {
+        "occupation": "Owner of LexCorp",
+        "base": "-"
+      },
+      "connections": {
+        "group-affiliation": "Injustice Gang, Injustice League, Society of Supervillains",
+        "relatives": "Casey and Elaine Griggs (foster parents, deceased),\nLena Luthor (sister pre-Crisis; daughter post-Crisis),\nElizabeth Perske (ex-wife),\nPerry J. White Jr. (son, deceased),\nContessa Erica Alexandra del Portenza (wife, assumed deceased)"
+      },
+      "image": {
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/727.jpg"
       }
     },
     {

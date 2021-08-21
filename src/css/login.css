@@ -12,3 +12,17 @@
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 400px) {
+  .buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 10px;
+  }
+  .jumbotron {
+    background-image: url(../img/mobile-bg.jpg);
+    background-size: cover;
+    margin-top: 2rem;
+  }
+}

@@ -1,3 +1,22 @@
+.card {
+  background-color: black !important;
+  width: 18rem;
+  margin: 2rem;
+}
+
+.cardTeam {
+  width: 250px !important;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
 .card-flip > div {
   backface-visibility: hidden;
   transition: transform 300ms;
@@ -10,12 +29,14 @@
 
 .card-front {
   transform: rotateY(0deg);
+  border-radius: 10px !important;
 }
 
 .card-back {
   transform: rotateY(180deg);
   position: absolute;
   top: 0;
+  border-radius: 10px !important;
 }
 
 .card-flip:hover .card-front {
@@ -24,4 +45,16 @@
 
 .card-flip:hover .card-back {
   transform: rotateY(0deg);
+}
+
+@media screen and (max-width: 850px) and (min-width: 450px) {
+  .card {
+    margin: 1rem;
+  }
+  .averageStats h3 {
+    font-size: 15px;
+  }
+  .averageStats h4 {
+    font-size: 20px;
+  }
 }

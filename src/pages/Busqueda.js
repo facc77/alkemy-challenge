@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
-import HeroCard from "../components/HeroCard";
+import Card from "../components/Card";
+import Header from "../components/Header";
 import "../css/busqueda.css";
 
 const Busqueda = () => {
@@ -16,7 +17,7 @@ const Busqueda = () => {
     if (token === "") {
       history.push("/");
     }
-  }, [history]);
+  }, []);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -28,16 +29,18 @@ const Busqueda = () => {
         : setError(res.data.error);
     };
     fetchData();
+    console.log(heroesInfo);
     // eslint-disable-next-line
-  }, [heroesInfo]);
+  }, []);
 
   return (
     <>
+      <Header login={true} />
       <h1>Resultado de busqueda</h1>
       <div className="card-container">
         {heroesInfo ? (
           heroesInfo.map((hero) => {
-            return <HeroCard key={hero.id} hero={hero} />;
+            return <Card key={hero.id} hero={hero} heroTeam={true} />;
           })
         ) : (
           <p>{error}</p>

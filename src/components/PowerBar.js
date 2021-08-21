@@ -1,12 +1,13 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
+import "../css/card.css";
 
-const PowerBar = ({ powerStats }) => {
+const PowerBar = ({ powerStats, heroTeam }) => {
   const { intelligence, durability, combat, power, speed, strength } =
     powerStats;
 
   return (
-    <div className="statsContainer">
+    <div className={`statsContainer ${heroTeam ? "cardTeam" : null}`}>
       <Bar
         data={{
           labels: [

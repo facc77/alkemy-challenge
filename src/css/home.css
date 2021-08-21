@@ -2,8 +2,33 @@
   background-color: black;
   color: beige;
   height: 42rem;
+  margin: 1rem;
 }
 
-/* .section {
-  color: black;
-} */
+.card-container {
+  justify-content: center;
+}
+
+.valoresContainer {
+  margin-top: 2rem !important;
+}
+
+@media only screen and (max-width: 450px) {
+  .valoresContainer {
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  .averageStats {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .valoresContainer {
+    margin-top: 2rem;
+  }
+
+  .btn-danger {
+    margin: 3px;
+  }
+}
