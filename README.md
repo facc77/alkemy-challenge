@@ -52,8 +52,8 @@ los campos email y password en el BODY.
 
 Los datos válidos para obtener un token son:
 
-● Email: challenge@alkemy.org
-● Password: react
+● Email: challenge@alkemy.org\
+● Password: react\
 
 En el caso de obtener un error de la API, se deberá mostrar una alerta, mientras que si es satisfactorio
 deberá redirigir al Home y almacenar el token obtenido en localStorage.
