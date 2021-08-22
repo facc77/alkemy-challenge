@@ -68,7 +68,7 @@ listado contendrá:
 ● Nombre del héroe.\
 ● Imagen.\
 ● Powerstats.\
-● Acciones para ver el detalle o eliminarlo del equipo.\
+● Acciones para ver el detalle o eliminarlo del equipo.
 
 ### `3. Buscador de Héroes`
 
@@ -78,7 +78,7 @@ mostrar:
 
 ● Nombre del héroe.\
 ● Imagen.\
-● Acciones para agregarlo al equipo\
+● Acciones para agregarlo al equipo
 
 Las validaciones del formulario deberán realizarse utilizando la librería Formik.
 
@@ -93,7 +93,7 @@ mostrar:, altura, nombre completo, alias, color de ojos y cabello, y su lugar de
 ● Alias.\
 ● Color de ojos.\
 ● Color de cabello.\
-● Lugar de trabajo.\
+● Lugar de trabajo.
 
 ### `npm start`
 
@@ -108,52 +108,15 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Notas Adicionales
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-Para el manejo de alertas en la validación de agregrado de heroes decidí usar [sweetalert2](https://www.npmjs.com/package/sweetalert2)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-Luego utilice gráficos para la visualización de stats de los héroes que hice gracias a [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Hice uso de [React-redux](https://react-redux.js.org/) para almacenar datos del equipo como así tambien loading y errores.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-En la card tuve que implementar css para que en onHover, esta misma rote y allí se muestre el gráfico del heroé en particular.\ 
+Lo hice para no ingresar tantos datos de un sólo lado de la card. 
+*Cabe aclarar que en resoluciones más pequenas, no se puede utilizar el evento onHover, por lo que en esos tamanos de pantalla, se agrega en la front card,\
+el boton de detalle para saltar a la sección de heroInfo
