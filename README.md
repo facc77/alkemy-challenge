@@ -97,6 +97,9 @@ mostrar:, altura, nombre completo, alias, color de ojos y cabello, y su lugar de
 
 ## Notas Adicionales
 
+-Debido a que no encontré especificaciones sobre el manejo de peticiones utilicé el package [JSON-server](https://www.npmjs.com/package/json-server) que brinda una fake 
+REST API, para enfocarme en el desarrollo de fron-end
+
 -Para el manejo de alertas en la validación de agregrado de heroes decidí usar [sweetalert2](https://www.npmjs.com/package/sweetalert2)
 
 -Luego utilice gráficos para la visualización de stats de los héroes que hice gracias a [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2)
