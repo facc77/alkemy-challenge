@@ -30,7 +30,7 @@ de equipo (inteligencia, fuerza, etc.).\
 ● El equipo debe tener 6 miembros. Debe haber 3 miembros con orientación buena y 3 con
 orientación mala. Esto debe validarse al intentar agregar un nuevo héroe.\
 ● Se deberá poder eliminar un miembro del equipo, lo que generará un nuevo promedio de
-peso, acumulativo de powerstats, etc.\
+peso, acumulativo de powerstats, etc.
 
 ## Requerimientos técnicos
 
@@ -44,7 +44,7 @@ conteniendo los campos:
 
 ● Email.\
 ● Password.\
-● Botón de “Enviar”.\
+● Botón de “Enviar”.
 
 Al hacer click en “Enviar”, se deberá validar que ambos campos no estén vacíos, y mostrar un mensaje
 al usuario si lo estuviesen. Caso contrario, se deberá realizar una petición POST a la siguiente url, con
