@@ -53,7 +53,7 @@ los campos email y password en el BODY.
 Los datos válidos para obtener un token son:
 
 ● Email: challenge@alkemy.org\
-● Password: react\
+● Password: react
 
 En el caso de obtener un error de la API, se deberá mostrar una alerta, mientras que si es satisfactorio
 deberá redirigir al Home y almacenar el token obtenido en localStorage.
@@ -65,10 +65,10 @@ Las validaciones del formulario deberán realizarse utilizando la librería Form
 El Home de la aplicación mostrará a los miembros del equipo en un listado en un grid. Cada ítem del
 listado contendrá:
 
-● Nombre del héroe.
-● Imagen.
-● Powerstats.
-● Acciones para ver el detalle o eliminarlo del equipo.
+● Nombre del héroe.\
+● Imagen.\
+● Powerstats.\
+● Acciones para ver el detalle o eliminarlo del equipo.\
 
 ### `3. Buscador de Héroes`
 
@@ -76,9 +76,9 @@ Para agregar un héroe a su equipo, se deberá visualizar un formulario que real
 endpoint de búsqueda y muestre los resultados disponibles en un grid. Esos resultados deberán
 mostrar:
 
-● Nombre del héroe.
-● Imagen.
-● Acciones para agregarlo al equipo
+● Nombre del héroe.\
+● Imagen.\
+● Acciones para agregarlo al equipo\
 
 Las validaciones del formulario deberán realizarse utilizando la librería Formik.
 
@@ -87,13 +87,13 @@ Las validaciones del formulario deberán realizarse utilizando la librería Form
 Al hacer click en un héroe del equipo, se mostrarán los detalles que figuran en el endpoint. De ellos,
 mostrar:, altura, nombre completo, alias, color de ojos y cabello, y su lugar de trabajo.
 
-● Peso.
-● Altura.
-● Nombre.
-● Alias.
-● Color de ojos.
-● Color de cabello.
-● Lugar de trabajo.
+● Peso.\
+● Altura.\
+● Nombre.\
+● Alias.\
+● Color de ojos.\
+● Color de cabello.\
+● Lugar de trabajo.\
 
 ### `npm start`
 
