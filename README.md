@@ -95,19 +95,6 @@ mostrar:, altura, nombre completo, alias, color de ojos y cabello, y su lugar de
 ● Color de cabello.\
 ● Lugar de trabajo.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ## Notas Adicionales
 
 -Para el manejo de alertas en la validación de agregrado de heroes decidí usar [sweetalert2](https://www.npmjs.com/package/sweetalert2)
@@ -117,6 +104,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 -Hice uso de [React-redux](https://react-redux.js.org/) para almacenar datos del equipo como así tambien loading y errores.
 
 -En la card tuve que implementar css para que en onHover, esta misma rote y allí se muestre el gráfico del heroé en particular.\ 
-Lo hice para no ingresar tantos datos de un sólo lado de la card. 
+
+Lo hice para no ingresar tantos datos de un sólo lado de la card. \
+
 *Cabe aclarar que en resoluciones más pequenas, no se puede utilizar el evento onHover, por lo que en esos tamanos de pantalla, se agrega en la front card,\
 el boton de detalle para saltar a la sección de heroInfo
