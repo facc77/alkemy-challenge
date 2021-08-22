@@ -103,9 +103,7 @@ mostrar:, altura, nombre completo, alias, color de ojos y cabello, y su lugar de
 
 -Hice uso de [React-redux](https://react-redux.js.org/) para almacenar datos del equipo como así tambien loading y errores.
 
--En la card tuve que implementar css para que en onHover, esta misma rote y allí se muestre el gráfico del heroé en particular.\ 
+-En la card tuve que implementar css para que en onHover, esta misma rote y allí se muestre el gráfico del heroé en particular.,o hice para no ingresar tantos datos de un sólo lado de la card. 
 
-Lo hice para no ingresar tantos datos de un sólo lado de la card. \
-
-*Cabe aclarar que en resoluciones más pequenas, no se puede utilizar el evento onHover, por lo que en esos tamanos de pantalla, se agrega en la front card,\
+*Cabe aclarar que en resoluciones más pequenas, no se puede utilizar el evento onHover, por lo que en esos tamanos de pantalla, se agrega en la front card,
 el boton de detalle para saltar a la sección de heroInfo
