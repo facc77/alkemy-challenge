@@ -22,15 +22,15 @@ características de la librería.
 
 En la pantalla de Home se deberá mostrar, además de los miembros del equipo:
 
-●Acumulativo de powerstats, agrupados por cada uno, es decir: suma total de intelligence,
-strength, etc. de todos los miembros individuales del equipo.
+● Acumulativo de powerstats, agrupados por cada uno, es decir: suma total de intelligence,
+strength, etc. de todos los miembros individuales del equipo.\
 ● El powerstat que más acumulativo tenga debería aparecer arriba para categorizar el tipo
-de equipo (inteligencia, fuerza, etc.).
-● Pesos y altura promedio del equipo.
+de equipo (inteligencia, fuerza, etc.).\
+● Pesos y altura promedio del equipo.\
 ● El equipo debe tener 6 miembros. Debe haber 3 miembros con orientación buena y 3 con
-orientación mala. Esto debe validarse al intentar agregar un nuevo héroe.
+orientación mala. Esto debe validarse al intentar agregar un nuevo héroe.\
 ● Se deberá poder eliminar un miembro del equipo, lo que generará un nuevo promedio de
-peso, acumulativo de powerstats, etc.
+peso, acumulativo de powerstats, etc.\
 
 ## Requerimientos técnicos
 
@@ -42,9 +42,9 @@ mismas en componentes reutilizables.
 El formulario se deberá renderizar al ingresar a cualquier ruta si el usuario no está autenticado,
 conteniendo los campos:
 
-● Email.
-● Password.
-● Botón de “Enviar”.
+● Email.\
+● Password.\
+● Botón de “Enviar”.\
 
 Al hacer click en “Enviar”, se deberá validar que ambos campos no estén vacíos, y mostrar un mensaje
 al usuario si lo estuviesen. Caso contrario, se deberá realizar una petición POST a la siguiente url, con
