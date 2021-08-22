@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import PowerBar from "../components/PowerBar";
 import Header from "../components/Header";
 import "../css/heroInfo.css";

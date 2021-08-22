@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import "../css/home.css";
 import { useSelector } from "react-redux";
 import HeroTeam from "../components/HeroTeam";
-/* import HeroCardTest from "../components/HeroCardTest";
-import Card from "../components/Card"; */
 import { useHistory } from "react-router-dom";
 import Buscador from "../components/Buscador";
 import TeamStats from "../components/TeamStats";

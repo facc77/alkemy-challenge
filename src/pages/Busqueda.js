@@ -17,7 +17,7 @@ const Busqueda = () => {
     if (token === "") {
       history.push("/");
     }
-  }, []);
+  }, [history]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,15 +36,17 @@ const Busqueda = () => {
   return (
     <>
       <Header login={true} />
-      <h1>Resultado de busqueda</h1>
-      <div className="card-container">
-        {heroesInfo ? (
-          heroesInfo.map((hero) => {
-            return <Card key={hero.id} hero={hero} heroTeam={true} />;
-          })
-        ) : (
-          <p>{error}</p>
-        )}
+      <div className="container">
+        <h1>Resultado de busqueda</h1>
+        <div className="card-container">
+          {heroesInfo ? (
+            heroesInfo.map((hero) => {
+              return <Card key={hero.id} hero={hero} heroTeam={true} />;
+            })
+          ) : (
+            <p>{error}</p>
+          )}
+        </div>
       </div>
     </>
   );

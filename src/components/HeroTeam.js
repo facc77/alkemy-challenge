@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { obtenerHeroesAction } from "../actions/heroeActions";
 import Card from "./Card";
-/* import HeroCard from "./HeroCard";
-import HeroCardTest from "./HeroCardTest"; */
 
 const HeroTeam = () => {
   const equipo = useSelector((state) => state.heroes.heroes);
@@ -26,8 +24,6 @@ const HeroTeam = () => {
       return <Card key={hero.id} hero={hero} team={true} heroTeam={true} />;
     })
   ) : (
-    //<PowerBar powerStats={powerStats} />
-
     <div className="container mt-5">
       <p className="alert alert-danger text-center font-weight-bold">
         el equipo no existe aún

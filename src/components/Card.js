@@ -1,14 +1,12 @@
 import React from "react";
 import "../css/card.css";
 import { useHistory } from "react-router-dom";
-//import "../css/heroCard.css";
 import { useDispatch, useSelector } from "react-redux";
 import { agregarHeroeAction, borrarHeroeAction } from "../actions/heroeActions";
 import Swal from "sweetalert2";
 import PowerBar from "./PowerBar";
 
 const Card = ({ hero, team, heroTeam }) => {
-  console.log(window.innerWidth);
   let history = useHistory();
   const dispatch = useDispatch();
   const equipo = useSelector((state) => state.heroes.heroes);
@@ -90,7 +88,6 @@ const Card = ({ hero, team, heroTeam }) => {
   };
 
   const handleClick = () => {
-    console.log(hero);
     localStorage.setItem("hero", JSON.stringify(hero));
     history.push("/heroInfo");
   };
@@ -122,7 +119,10 @@ const Card = ({ hero, team, heroTeam }) => {
                   Agregar al equipo
                 </button>
               )}
-              <button onClick={handleClick} className="btn btn-primary">
+              <button
+                onClick={handleClick(hero.id)}
+                className="btn btn-primary"
+              >
                 Detalles
               </button>
             </div>
@@ -150,7 +150,10 @@ const Card = ({ hero, team, heroTeam }) => {
                 Agregar al equipo
               </button>
             )}
-            <button onClick={handleClick} className="btn btn-primary ml-1">
+            <button
+              onClick={() => handleClick()}
+              className="btn btn-primary ml-1"
+            >
               Detalles
             </button>
           </div>
