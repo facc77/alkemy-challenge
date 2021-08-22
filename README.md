@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# React Alkemy Challenge!!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto corresponde a un desafío de Alkemy Labs
 
-## Available Scripts
+## Objetivo:
 
-In the project directory, you can run:
+Desarrollar una aplicación para crear un equipo de superhéroes que consumirá una API externa y
+mostrará diferentes atributos a nivel individual de cada miembro y del equipo consolidado.
+
+las diferentes secciones que tendrá la app deberán protegerse verificando que el
+usuario autenticado disponga de un token que se almacenará en localStorage. \
+El mismo, se obtendrá de una API con datos de muestra.
+Si un usuario intenta ingresar a cualquier ruta sin estar autenticado,
+deberá ser redirigido al login.
 
 ### `npm start`
 
