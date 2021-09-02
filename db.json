@@ -1,6 +1,104 @@
 {
   "heroes": [
     {
+      "id": "70",
+      "name": "Batman",
+      "powerstats": {
+        "intelligence": "100",
+        "strength": "26",
+        "speed": "27",
+        "durability": "50",
+        "power": "47",
+        "combat": "100"
+      },
+      "biography": {
+        "full-name": "Bruce Wayne",
+        "alter-egos": "No alter egos found.",
+        "aliases": [
+          "Insider",
+          "Matches Malone"
+        ],
+        "place-of-birth": "Crest Hill, Bristol Township; Gotham County",
+        "first-appearance": "Detective Comics #27",
+        "publisher": "DC Comics",
+        "alignment": "good"
+      },
+      "appearance": {
+        "gender": "Male",
+        "race": "Human",
+        "height": [
+          "6'2",
+          "188 cm"
+        ],
+        "weight": [
+          "210 lb",
+          "95 kg"
+        ],
+        "eye-color": "blue",
+        "hair-color": "black"
+      },
+      "work": {
+        "occupation": "Businessman",
+        "base": "Batcave, Stately Wayne Manor, Gotham City; Hall of Justice, Justice League Watchtower"
+      },
+      "connections": {
+        "group-affiliation": "Batman Family, Batman Incorporated, Justice League, Outsiders, Wayne Enterprises, Club of Heroes, formerly White Lantern Corps, Sinestro Corps",
+        "relatives": "Damian Wayne (son), Dick Grayson (adopted son), Tim Drake (adopted son), Jason Todd (adopted son), Cassandra Cain (adopted ward)\nMartha Wayne (mother, deceased), Thomas Wayne (father, deceased), Alfred Pennyworth (former guardian), Roderick Kane (grandfather, deceased), Elizabeth Kane (grandmother, deceased), Nathan Kane (uncle, deceased), Simon Hurt (ancestor), Wayne Family"
+      },
+      "image": {
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
+      }
+    },
+    {
+      "id": "263",
+      "name": "Flash",
+      "powerstats": {
+        "intelligence": "63",
+        "strength": "10",
+        "speed": "100",
+        "durability": "50",
+        "power": "68",
+        "combat": "32"
+      },
+      "biography": {
+        "full-name": "Jay Garrick",
+        "alter-egos": "No alter egos found.",
+        "aliases": [
+          "Jay Garrick",
+          "Siegfreid the Speedster"
+        ],
+        "place-of-birth": "Hibbardsville, Kansas",
+        "first-appearance": "Flash Comics #1 (January 1940)",
+        "publisher": "DC Comics",
+        "alignment": "good"
+      },
+      "appearance": {
+        "gender": "Male",
+        "race": "Human",
+        "height": [
+          "5'11",
+          "180 cm"
+        ],
+        "weight": [
+          "179 lb",
+          "81 kg"
+        ],
+        "eye-color": "Blue",
+        "hair-color": "Brown / White"
+      },
+      "work": {
+        "occupation": "Research Scientist, part-time Director of Garrick Laboratories",
+        "base": "Keystone City, Kansas"
+      },
+      "connections": {
+        "group-affiliation": "Justice Society of America, Flash Family; formerly All-Star Squadron",
+        "relatives": "Joseph Garrick (father), Joan Williams (wife), Arthur Williams (father-in-law), unnamed adopted son (deceased), Bart Allen (Flash II, ward)"
+      },
+      "image": {
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/891.jpg"
+      }
+    },
+    {
       "id": "644",
       "name": "Superman",
       "powerstats": {
@@ -55,104 +153,6 @@
       }
     },
     {
-      "id": "209",
-      "name": "Dash",
-      "powerstats": {
-        "intelligence": "25",
-        "strength": "12",
-        "speed": "92",
-        "durability": "60",
-        "power": "20",
-        "combat": "30"
-      },
-      "biography": {
-        "full-name": "Dashiell Robert Parr",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "The Fastest Kid on Earth",
-          "The Dash"
-        ],
-        "place-of-birth": "-",
-        "first-appearance": "The Incredibles (Movies, 2004)",
-        "publisher": "Dark Horse Comics",
-        "alignment": "good"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Human",
-        "height": [
-          "4'0",
-          "122 cm"
-        ],
-        "weight": [
-          "60 lb",
-          "27 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "Blond"
-      },
-      "work": {
-        "occupation": "-",
-        "base": "-"
-      },
-      "connections": {
-        "group-affiliation": "Incredible Family (genetic member), National Supers Agency (ties), Edna Mode (receives costumes and gadgets from her), Frozone (long-time friend), Mirage (ally)",
-        "relatives": "Robert Parr (Mr Incredible, father), Helen Parr (Elastigirl, mother), Violet Parr(Violet, sister), , Jack-jack (brother)"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/824.jpg"
-      }
-    },
-    {
-      "id": "70",
-      "name": "Batman",
-      "powerstats": {
-        "intelligence": "100",
-        "strength": "26",
-        "speed": "27",
-        "durability": "50",
-        "power": "47",
-        "combat": "100"
-      },
-      "biography": {
-        "full-name": "Bruce Wayne",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "Insider",
-          "Matches Malone"
-        ],
-        "place-of-birth": "Crest Hill, Bristol Township; Gotham County",
-        "first-appearance": "Detective Comics #27",
-        "publisher": "DC Comics",
-        "alignment": "good"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Human",
-        "height": [
-          "6'2",
-          "188 cm"
-        ],
-        "weight": [
-          "210 lb",
-          "95 kg"
-        ],
-        "eye-color": "blue",
-        "hair-color": "black"
-      },
-      "work": {
-        "occupation": "Businessman",
-        "base": "Batcave, Stately Wayne Manor, Gotham City; Hall of Justice, Justice League Watchtower"
-      },
-      "connections": {
-        "group-affiliation": "Batman Family, Batman Incorporated, Justice League, Outsiders, Wayne Enterprises, Club of Heroes, formerly White Lantern Corps, Sinestro Corps",
-        "relatives": "Damian Wayne (son), Dick Grayson (adopted son), Tim Drake (adopted son), Jason Todd (adopted son), Cassandra Cain (adopted ward)\nMartha Wayne (mother, deceased), Thomas Wayne (father, deceased), Alfred Pennyworth (former guardian), Roderick Kane (grandfather, deceased), Elizabeth Kane (grandmother, deceased), Nathan Kane (uncle, deceased), Simon Hurt (ancestor), Wayne Family"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/639.jpg"
-      }
-    },
-    {
       "id": "405",
       "name": "Lex Luthor",
       "powerstats": {
@@ -201,32 +201,86 @@
       }
     },
     {
-      "id": "15",
-      "name": "Alex Mercer",
+      "id": "547",
+      "name": "Red Hulk",
       "powerstats": {
         "intelligence": "50",
-        "strength": "80",
-        "speed": "42",
-        "durability": "90",
-        "power": "100",
-        "combat": "50"
+        "strength": "100",
+        "speed": "47",
+        "durability": "85",
+        "power": "82",
+        "combat": "75"
       },
       "biography": {
-        "full-name": "Alexander J. Mercer",
+        "full-name": "Thaddeus E. Ross",
         "alter-egos": "No alter egos found.",
         "aliases": [
-          "Prototype",
-          "Zues",
-          "Blacklight"
+          "Rulk",
+          "Hulk",
+          "Thunderbolt",
+          "General Ross"
         ],
         "place-of-birth": "-",
-        "first-appearance": "-",
-        "publisher": "Wildstorm",
-        "alignment": "bad"
+        "first-appearance": "Incredible Hulk #1 (May, 1962)(as General Ross), Hulk Vol 2 #1 (March, 2008) (as Red Hulk)",
+        "publisher": "Marvel Comics",
+        "alignment": "neutral"
       },
       "appearance": {
         "gender": "Male",
-        "race": "Human",
+        "race": "Human / Radiation",
+        "height": [
+          "7'0",
+          "213 cm"
+        ],
+        "weight": [
+          "1400 lb",
+          "630 kg"
+        ],
+        "eye-color": "Yellow",
+        "hair-color": "Black"
+      },
+      "work": {
+        "occupation": "Lieutenant general in US Air Force",
+        "base": "-"
+      },
+      "connections": {
+        "group-affiliation": "Code Red, AIM; Formerly Offenders",
+        "relatives": "-"
+      },
+      "image": {
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/1342.jpg"
+      }
+    },
+    {
+      "id": "100",
+      "name": "Black Flash",
+      "powerstats": {
+        "intelligence": "44",
+        "strength": "10",
+        "speed": "100",
+        "durability": "80",
+        "power": "100",
+        "combat": "30"
+      },
+      "biography": {
+        "full-name": "",
+        "alter-egos": "No alter egos found.",
+        "aliases": [
+          "Barry Allen",
+          "Flashback",
+          "Slow Lightning",
+          "Black Racer",
+          "Death Flash",
+          "God of Death"
+        ],
+        "place-of-birth": "-",
+        "first-appearance": "Flash Vol 2 #138",
+        "publisher": "DC Comics",
+        "alignment": "neutral"
+      },
+      "appearance": {
+        "gender": "Male",
+        "race": "God / Eternal",
         "height": [
           "-",
           "0 cm"
@@ -243,61 +297,11 @@
         "base": "-"
       },
       "connections": {
-        "group-affiliation": "Gentek, The Infected",
-        "relatives": "Dana Mercer (sister)"
+        "group-affiliation": "-",
+        "relatives": "-"
       },
       "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/10398.jpg"
-      }
-    },
-    {
-      "id": "195",
-      "name": "Cyborg Superman",
-      "powerstats": {
-        "intelligence": "75",
-        "strength": "93",
-        "speed": "92",
-        "durability": "100",
-        "power": "100",
-        "combat": "80"
-      },
-      "biography": {
-        "full-name": "Henry Henshaw",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "Grandmaster of the Manhunters",
-          "Herald of the Anti-Monitor",
-          "Alpha-Prime of the Alpha Lanterns"
-        ],
-        "place-of-birth": "-",
-        "first-appearance": "Adventures of Superman #466 (May, 1990)",
-        "publisher": "DC Comics",
-        "alignment": "bad"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Cyborg",
-        "height": [
-          "-",
-          "0 cm"
-        ],
-        "weight": [
-          "- lb",
-          "0 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "Black"
-      },
-      "work": {
-        "occupation": "-",
-        "base": "Warworld, Qward, Antimatter Universe, formerly Biot, Sector 3601"
-      },
-      "connections": {
-        "group-affiliation": "Alpha Lantern Corps, Manhunters, Warworld, formerly Apokolips and Sinestro Corps",
-        "relatives": "Terri Henshaw (wife, deceased)"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/667.jpg"
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/10831.jpg"
       }
     }
   ]

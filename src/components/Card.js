@@ -120,7 +120,7 @@ const Card = ({ hero, team, heroTeam }) => {
                 </button>
               )}
               <button
-                onClick={handleClick(hero.id)}
+                onClick={() => handleClick(hero.id)}
                 className="btn btn-primary"
               >
                 Detalles

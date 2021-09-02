@@ -6,6 +6,10 @@ import Container from "react-bootstrap/Container";
 const Header = ({ login }) => {
   let history = useHistory();
 
+  const handleClick = () => {
+    history.push("/home");
+  };
+
   const goBack = () => {
     history.goBack();
   };
@@ -29,13 +33,13 @@ const Header = ({ login }) => {
           SuperHeroApp
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse
-          id="responsive-navbar-nav"
-          className="justify-content-end"
-        >
-          {login ? (
+        {login ? (
+          <Navbar.Collapse
+            id="responsive-navbar-nav"
+            className="justify-content-end"
+          >
             <Nav>
-              <Button href="/home" variant="danger">
+              <Button onClick={() => handleClick()} variant="danger">
                 Chequear Equipo
               </Button>
               <Button onClick={() => cerrarSesion()} variant="danger">
@@ -45,8 +49,8 @@ const Header = ({ login }) => {
                 Regresar
               </Button>
             </Nav>
-          ) : null}
-        </Navbar.Collapse>
+          </Navbar.Collapse>
+        ) : null}
       </Container>
     </Navbar>
   );

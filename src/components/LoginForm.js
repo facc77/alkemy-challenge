@@ -55,34 +55,34 @@ const LoginForm = () => {
     <form onSubmit={formik.handleSubmit} className="loginForm bg-dark">
       <h1>Login</h1>
 
-      <div className="form-group">
+      <div className="form-group mb-4">
         <label htmlFor="email">Email Address</label>
 
         <input
           id="email"
           type="email"
           {...formik.getFieldProps("email")}
-          className="form-control mb-3"
+          className="form-control "
         />
 
         {formik.touched.email && formik.errors.email ? (
-          <div className="p-1 alert alert-danger text-center">
+          <div className="errorMessage alert alert-danger text-center ">
             {formik.errors.email}
           </div>
         ) : null}
       </div>
-      <div className="form-group">
+      <div className="form-group mb-4">
         <label htmlFor="password">Password</label>
 
         <input
           id="password"
           type="password"
           {...formik.getFieldProps("password")}
-          className="form-control mb-3"
+          className="form-control "
         />
 
         {formik.touched.password && formik.errors.password ? (
-          <div className="p-1 alert alert-danger text-center">
+          <div className="errorMessage alert alert-danger text-center">
             {formik.errors.password}
           </div>
         ) : null}

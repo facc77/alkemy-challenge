@@ -11,7 +11,7 @@ const HeroInfo = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (token === "") {
-      history.push("/");
+      history.push("/redirect");
     }
   }, [history]);
 
