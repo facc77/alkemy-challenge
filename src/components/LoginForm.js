@@ -2,12 +2,12 @@ import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import "../css/login.css";
-import axios from "axios";
-import { useHistory } from "react-router-dom";
-import Swal from "sweetalert2";
+import { useDispatch } from "react-redux";
+import { verificarLoginAction } from "../actions/loginActions";
 
 const LoginForm = () => {
-  let history = useHistory();
+  const dispatch = useDispatch();
+
   const formik = useFormik({
     initialValues: {
       password: "",
@@ -23,7 +23,9 @@ const LoginForm = () => {
     }),
 
     onSubmit: (values) => {
-      if (
+      console.log(values);
+      dispatch(verificarLoginAction(values));
+      /* if (
         values.email === "challenge@alkemy.org" &&
         values.password === "react"
       ) {
@@ -47,7 +49,7 @@ const LoginForm = () => {
           text: "Email o contrasena incorrectos",
         });
         return;
-      }
+      } */
     },
   });
 
