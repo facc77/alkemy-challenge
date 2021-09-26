@@ -2,11 +2,12 @@ import {
   COMENZAR_VERIFICADO_LOGIN,
   VERIFICADO_LOGIN_EXITO,
   VERIFICADO_LOGIN_ERROR,
+  DESLOGUEO,
 } from "../types";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-export function verificarLoginAction(values) {
+export function VerificarLoginAction(values, history) {
   return async (dispatch) => {
     dispatch(verificarLogin());
     if (
@@ -22,7 +23,7 @@ export function verificarLoginAction(values) {
             })
             .then(dispatch(loginExito()));
           localStorage.setItem("token", res.data.token);
-          window.location.href = "/home";
+          history.push("home");
         };
         fetchData();
       } catch (error) {
@@ -55,4 +56,16 @@ const loginExito = () => ({
 const loginError = (error) => ({
   type: VERIFICADO_LOGIN_ERROR,
   payload: error,
+});
+
+export function verificarDeslogueoAction() {
+  return (dispatch) => {
+    dispatch(deslogueoAction());
+    localStorage.setItem("token", "");
+  };
+}
+
+const deslogueoAction = () => ({
+  type: DESLOGUEO,
+  payload: true,
 });

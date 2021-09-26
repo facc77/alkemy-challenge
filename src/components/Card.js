@@ -62,11 +62,6 @@ const Card = ({ hero, team, heroTeam }) => {
       agregarHeroe(hero);
       history.push("/home");
     }
-
-    //si no hay errores
-
-    //agregar nuevo heroe
-    console.log(hero);
   };
   //sacar un heroe del equipo
 

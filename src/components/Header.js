@@ -1,9 +1,14 @@
 import React from "react";
 import Logo from "../img/heroLogo.png";
 import { useHistory } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { verificarDeslogueoAction } from "../actions/loginActions";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
+
 const Header = ({ login }) => {
+  const dispatch = useDispatch();
+
   let history = useHistory();
 
   const handleClick = () => {
@@ -15,7 +20,7 @@ const Header = ({ login }) => {
   };
 
   const cerrarSesion = () => {
-    localStorage.setItem("token", "");
+    dispatch(verificarDeslogueoAction());
     history.push("/");
   };
 

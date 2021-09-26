@@ -54,154 +54,55 @@
       }
     },
     {
-      "id": "569",
-      "name": "Rorschach",
+      "id": "549",
+      "name": "Red Robin",
       "powerstats": {
-        "intelligence": "75",
-        "strength": "10",
-        "speed": "29",
-        "durability": "20",
-        "power": "23",
+        "intelligence": "81",
+        "strength": "11",
+        "speed": "27",
+        "durability": "32",
+        "power": "29",
         "combat": "80"
       },
       "biography": {
-        "full-name": "Walter Joseph Kovacs",
-        "alter-egos": "No alter egos found.",
+        "full-name": "Tim Drake",
+        "alter-egos": "Robin III",
         "aliases": [
-          "-"
+          "Alvin Draper",
+          "Batman",
+          "Robin",
+          "Timothy Wayne",
+          "Time Drake"
         ],
-        "place-of-birth": "-",
-        "first-appearance": "Watchmen #1 (September, 1986)",
-        "publisher": "DC Comics",
+        "place-of-birth": "Gotham City",
+        "first-appearance": "Batman #436 (August, 1989)",
+        "publisher": "Robin III",
         "alignment": "good"
       },
       "appearance": {
         "gender": "Male",
         "race": "Human",
         "height": [
-          "5'6",
-          "168 cm"
+          "5'5",
+          "165 cm"
         ],
         "weight": [
-          "140 lb",
-          "63 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "Red"
-      },
-      "work": {
-        "occupation": "Vigilante, former garment worker",
-        "base": "-"
-      },
-      "connections": {
-        "group-affiliation": "Crimebusters",
-        "relatives": "-"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/771.jpg"
-      }
-    },
-    {
-      "id": "263",
-      "name": "Flash",
-      "powerstats": {
-        "intelligence": "63",
-        "strength": "10",
-        "speed": "100",
-        "durability": "50",
-        "power": "68",
-        "combat": "32"
-      },
-      "biography": {
-        "full-name": "Jay Garrick",
-        "alter-egos": "No alter egos found.",
-        "aliases": [
-          "Jay Garrick",
-          "Siegfreid the Speedster"
-        ],
-        "place-of-birth": "Hibbardsville, Kansas",
-        "first-appearance": "Flash Comics #1 (January 1940)",
-        "publisher": "DC Comics",
-        "alignment": "good"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Human",
-        "height": [
-          "5'11",
-          "180 cm"
-        ],
-        "weight": [
-          "179 lb",
-          "81 kg"
-        ],
-        "eye-color": "Blue",
-        "hair-color": "Brown / White"
-      },
-      "work": {
-        "occupation": "Research Scientist, part-time Director of Garrick Laboratories",
-        "base": "Keystone City, Kansas"
-      },
-      "connections": {
-        "group-affiliation": "Justice Society of America, Flash Family; formerly All-Star Squadron",
-        "relatives": "Joseph Garrick (father), Joan Williams (wife), Arthur Williams (father-in-law), unnamed adopted son (deceased), Bart Allen (Flash II, ward)"
-      },
-      "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/891.jpg"
-      }
-    },
-    {
-      "id": "644",
-      "name": "Superman",
-      "powerstats": {
-        "intelligence": "94",
-        "strength": "100",
-        "speed": "100",
-        "durability": "100",
-        "power": "100",
-        "combat": "85"
-      },
-      "biography": {
-        "full-name": "Clark Kent",
-        "alter-egos": "Superman Prime One-Million",
-        "aliases": [
-          "Clark Joseph Kent",
-          "The Man of Steel",
-          "the Man of Tomorrow",
-          "the Last Son of Krypton",
-          "Big Blue",
-          "the Metropolis Marvel",
-          "the Action Ace"
-        ],
-        "place-of-birth": "Krypton",
-        "first-appearance": "ACTION COMICS #1",
-        "publisher": "Superman Prime One-Million",
-        "alignment": "good"
-      },
-      "appearance": {
-        "gender": "Male",
-        "race": "Kryptonian",
-        "height": [
-          "6'3",
-          "191 cm"
-        ],
-        "weight": [
-          "225 lb",
-          "101 kg"
+          "125 lb",
+          "56 kg"
         ],
         "eye-color": "Blue",
         "hair-color": "Black"
       },
       "work": {
-        "occupation": "Reporter for the Daily Planet and novelist",
-        "base": "Metropolis"
+        "occupation": "-",
+        "base": "Gotham City; Titans Tower, San Francisco"
       },
       "connections": {
-        "group-affiliation": "Justice League of America, The Legion of Super-Heroes (pre-Crisis as Superboy); Justice Society of America (pre-Crisis Earth-2 version); All-Star Squadron (pre-Crisis Earth-2 version)",
-        "relatives": "Lois Lane (wife), Jor-El (father, deceased), Lara (mother, deceased), Jonathan Kent (adoptive father), Martha Kent (adoptive mother), Seyg-El (paternal grandfather, deceased), Zor-El (uncle, deceased), Alura (aunt, deceased), Supergirl (Kara Zor-El, cousin), Superboy (Kon-El/Conner Kent, partial clone)"
+        "group-affiliation": "Teen Titans, Batman Family, Batman Inc., Wayne Enterprises; formerly Young Justice",
+        "relatives": "Jack Drake (father, deceased), Janet Drake (mother, deceased), Dana Winters Drake (step-mother, status unknown), Bruce Wayne (adoptive father), Damian Wayne (adoptive brother), Dick Grayson (adoptive brother), Jason Todd (adoptive brother), Cassandra Cain (adoptive sister)"
       },
       "image": {
-        "url": "https://www.superherodb.com/pictures2/portraits/10/100/791.jpg"
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/10009.jpg"
       }
     },
     {
@@ -255,6 +156,54 @@
       }
     },
     {
+      "id": "569",
+      "name": "Rorschach",
+      "powerstats": {
+        "intelligence": "75",
+        "strength": "10",
+        "speed": "29",
+        "durability": "20",
+        "power": "23",
+        "combat": "80"
+      },
+      "biography": {
+        "full-name": "Walter Joseph Kovacs",
+        "alter-egos": "No alter egos found.",
+        "aliases": [
+          "-"
+        ],
+        "place-of-birth": "-",
+        "first-appearance": "Watchmen #1 (September, 1986)",
+        "publisher": "DC Comics",
+        "alignment": "good"
+      },
+      "appearance": {
+        "gender": "Male",
+        "race": "Human",
+        "height": [
+          "5'6",
+          "168 cm"
+        ],
+        "weight": [
+          "140 lb",
+          "63 kg"
+        ],
+        "eye-color": "Blue",
+        "hair-color": "Red"
+      },
+      "work": {
+        "occupation": "Vigilante, former garment worker",
+        "base": "-"
+      },
+      "connections": {
+        "group-affiliation": "Crimebusters",
+        "relatives": "-"
+      },
+      "image": {
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/771.jpg"
+      }
+    },
+    {
       "id": "655",
       "name": "Thanos",
       "powerstats": {
@@ -303,6 +252,56 @@
       },
       "image": {
         "url": "https://www.superherodb.com/pictures2/portraits/10/100/1305.jpg"
+      }
+    },
+    {
+      "id": "561",
+      "name": "Robin",
+      "powerstats": {
+        "intelligence": "88",
+        "strength": "11",
+        "speed": "27",
+        "durability": "28",
+        "power": "32",
+        "combat": "85"
+      },
+      "biography": {
+        "full-name": "Dick Grayson",
+        "alter-egos": "Batman II, Nightwing",
+        "aliases": [
+          "Renegade",
+          "The Target",
+          "Freddie Dinardo"
+        ],
+        "place-of-birth": "-",
+        "first-appearance": "Detective Comics #38 (April, 1940)",
+        "publisher": "Batman II",
+        "alignment": "good"
+      },
+      "appearance": {
+        "gender": "Male",
+        "race": "Human",
+        "height": [
+          "5'10",
+          "178 cm"
+        ],
+        "weight": [
+          "175 lb",
+          "79 kg"
+        ],
+        "eye-color": "Blue",
+        "hair-color": "Black"
+      },
+      "work": {
+        "occupation": "-",
+        "base": "Wayne Tower, Gotham City; formerly the Batcave;  formerly Bl�dhaven;  formerly New York City"
+      },
+      "connections": {
+        "group-affiliation": "Batman Family, Batman Incorporated, Justice League; formerly Teen Titans, Outsiders, Bludhaven Police Department, Secret Society of Super-Villains",
+        "relatives": "John Grayson (father), Mary Grayson (mother), Bruce Wayne (adoptive father), Damian Wayne (adoptive brother), Jason Todd (adoptive brother), Tim Drake (adoptive brother), Cassandra Cain (adoptive sister)"
+      },
+      "image": {
+        "url": "https://www.superherodb.com/pictures2/portraits/10/100/850.jpg"
       }
     }
   ]

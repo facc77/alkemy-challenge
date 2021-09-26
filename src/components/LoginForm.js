@@ -3,11 +3,13 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import "../css/login.css";
 import { useDispatch } from "react-redux";
-import { verificarLoginAction } from "../actions/loginActions";
+import { VerificarLoginAction } from "../actions/loginActions";
+import { useHistory } from "react-router-dom";
 
-const LoginForm = () => {
+const LoginForm = (props) => {
+  let history = useHistory();
   const dispatch = useDispatch();
-
+  console.log(history);
   const formik = useFormik({
     initialValues: {
       password: "",
@@ -24,32 +26,7 @@ const LoginForm = () => {
 
     onSubmit: (values) => {
       console.log(values);
-      dispatch(verificarLoginAction(values));
-      /* if (
-        values.email === "challenge@alkemy.org" &&
-        values.password === "react"
-      ) {
-        try {
-          const fetchData = async () => {
-            const res = await axios.post("http://challenge-react.alkemy.org/", {
-              email: values.email,
-              password: values.password,
-            });
-            localStorage.setItem("token", res.data.token);
-            history.push("/home");
-          };
-          fetchData();
-        } catch (error) {
-          console.log(error);
-        }
-      } else {
-        Swal.fire({
-          icon: "error",
-          title: "Acceso denegado",
-          text: "Email o contrasena incorrectos",
-        });
-        return;
-      } */
+      dispatch(VerificarLoginAction(values, history));
     },
   });
 

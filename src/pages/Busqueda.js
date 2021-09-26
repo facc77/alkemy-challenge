@@ -29,7 +29,6 @@ const Busqueda = () => {
         : setError(res.data.error);
     };
     fetchData();
-    console.log(heroesInfo);
     // eslint-disable-next-line
   }, []);
 
