@@ -98,7 +98,7 @@ mostrar:, altura, nombre completo, alias, color de ojos y cabello, y su lugar de
 ## Notas Adicionales
 
 -Debido a que no encontré especificaciones sobre el manejo de peticiones utilicé el package [JSON-server](https://www.npmjs.com/package/json-server) que brinda una fake 
-REST API, para enfocarme en el desarrollo de fron-end
+REST API, para enfocarme en el desarrollo de fron-end. El mismo se ejecuta con el siguiente comando : npx json-server --watch db.json --port 4000
 
 -Para el manejo de alertas en la validación de agregrado de heroes decidí usar [sweetalert2](https://www.npmjs.com/package/sweetalert2)
 
